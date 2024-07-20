@@ -189,6 +189,10 @@
     border: none;
     color : white;
 }
+.contact-btn:hover {
+    background-color: #a1a1a1;
+    color : #000;
+}
 
 .map_section {
     width: 100%;

@@ -1,0 +1,217 @@
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right : 0;
+    background: #fff;
+    height : 56px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 1.7rem;
+    line-height: 40px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    z-index: 1;
+}
+
+.navbar__left {
+    padding: 0 16px;
+}
+
+.navbar__trademark {
+    color : var(--back-color)
+}
+
+.navbar__right-item {
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.navbar__left:hover, .navbar__right-item:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* header css */
+.header{
+    background: url(../img/architect.jpg) top center / cover no-repeat;
+    padding-top: 50%;
+    margin-top: 56px;
+    position: relative;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__trademark {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    font-size : 36px;
+    color : var(--white-color);
+    letter-spacing: 4px;
+    text-align: center !important;
+    transform: translate(-50%, -50%);
+}
+
+.header__trademark--strong {
+    font-weight: 700;
+    line-height: 1.5rem;
+    opacity: 0.7;
+    background-color: black;
+    width: 86px;
+    padding: 8px 16px;
+}
+
+/* Content */
+
+.content-section {
+    padding: 8px 16px;
+    max-width: 1564px;
+    margin: 0 auto;
+}
+
+.section__header {
+    padding: 32px 16px;
+    line-height: 2.25rem;
+}
+.secton__header-text {
+    display: block;
+    font-size: 24px;
+    line-height: 3.6rem;
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+}
+
+/* Project Section */
+.content-row {
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-item {
+    width: calc(100%/4);
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.project-text {
+    position: absolute;
+    line-height: 2.25rem;
+    font-size: 1.5rem;
+    padding: 8px 18px;
+    background-color: var(--back-color);
+    color : var(--white-color);
+    font-weight: 500;
+}
+.project-img {
+    width: 100%;
+}
+
+/* about section */
+.about-text {
+    font-size: 1.6rem;
+    line-height: 2.25rem;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.about-img {
+    width: 100%;
+    overflow: clip;
+}
+
+.about-person {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin : 10px 0;
+}
+
+.about-position {
+    color : rgba(150, 148, 148, 0.973);
+    font-size: 1.6rem;
+    line-height: 2.25rem;
+    margin : 15px 0;
+}
+
+.about-desc {
+    font-size: 16px;
+    line-height: 22.5px;
+    margin: 15px 0;
+}
+
+.about-btn {
+    padding: 8px 16px;
+    text-align: center;
+    line-height: 22.5px;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.about-btn:hover {
+    background-color: rgb(194, 191, 191);
+    cursor: pointer;
+}
+
+/* Contact section */
+.contact-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin: 15px 0;
+}
+
+.contact__input-text {
+    display: block;
+    width: 100%;
+    /* border-radius: 0; */
+    border: 1px solid #ccc;
+    line-height: 22.5px;
+    font-size: 16px;
+    padding: 8px;
+    margin : 15px 0;
+}
+
+.contact-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 22.5px;
+    background-color: black;
+    border: none;
+    color : white;
+}
+
+.map_section {
+    width: 100%;
+    height: auto;
+    padding: 0 16px;
+}
+
+.footer {
+    display: block;
+    background-color: #000;
+    padding: 16px 0;
+    color : #fff;
+
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22.5px;
+    color : #fff;
+    margin: 15px 0;
+}
+.footer-text a {
+    color : #fff;
+    text-decoration:underline;
+}
